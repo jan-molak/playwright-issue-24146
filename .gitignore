@@ -1,0 +1,13 @@
+# IntelliJ
+.idea
+
+# Node
+node_modules
+*.log
+
+# Build artifacts
+lib/
+target/
+
+# Playwright
+playwright-report

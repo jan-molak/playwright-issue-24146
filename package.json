@@ -1,0 +1,27 @@
+{
+  "name": "playwright-issue-24146",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf lib && tsc --project tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jan-molak/playwright-issue-24146.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jan-molak/playwright-issue-24146/issues"
+  },
+  "homepage": "https://github.com/jan-molak/playwright-issue-24146#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.4",
+    "rimraf": "^5.0.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@playwright/test": "1.36.1"
+  }
+}
